@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="sign-in.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="sign-in" id="sign-in">
+            <div class="half1">
+
+                <h1>    Welcome <br> Back</h1> <br>
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic at ducimus ut dicta quo quaerat delectus blanditiis eum? Totam odio officiis ex blanditiis repellat, modi eligendi expedita nesciunt labore nihil.</p>
+
+                <i  class="fa fa-facebook-f" ></i>   <i class="fa fa-twitter-square"></i>
+                <i class="fa fa-linkedin" ></i>
+                <i class="fa fa-instagram"></i>
+                
+
+
+            </div>
+            <div class="half2">
+
+                <h1> Login</h1>
+
+                <form class="form"  id="form" onsubmit="return redirectToAnotherPage()" >
+                    <p> Username </p>
+                    <input type="text"  placeholder="Type Your Username" required>  </input> <BR>
+
+                    <p> Password</p>
+                    <input type="password" title="Minimum 8 characters required" placeholder="Type Your Password" required pattern=".{8,}">  </input> <BR>
+                    <input id="submit"  type="submit" title="submit"  >  </input>
+                    <br>
+                    <br>
+                    <a href="#"> forgot password?</a>
+                
+                </form>
+
+                <h2> Don't have an account? </h2>  <a class="link" id="link">Sign Up</a>
+                  <br>
+               
+                
+            </div>
+
+        </div>
+
+        <div class="sign-up" id="sign-up">
+
+            <div class="halfa">
+                <h1> Sign Up</h1>
+
+                <form class="forma" >
+                    <p> First Name </p>
+                    <input type="text"  placeholder="Type Your First Name" required>  </input> <BR>
+                    <p> Last Name </p>
+                    <input type="text"  placeholder="Type Your Last Name" required>  </input> <BR>
+                    <p> E-mail </p>
+                    <input type="email"  placeholder="Type Your E-mail" required>  </input> <BR>
+
+                    <p> Password</p>
+                    <input type="password" title="Minimum 8 characters required" placeholder="Type Your Password" required pattern=".{8,}" placeholder="Type Your Password">  </input> <BR>
+                    <input id="sub"  type="submit" title="Sign-up"  >  </input>
+                    <br>
+                    <br>
+                    
+                
+                </form>
+                <h2> Already a member? </h2>  <a class="link" id="linkb">Log In</a>  <br>
+
+            </div>
+
+            <div class="halfb">
+                
+                <h1>  Devtern Internship</h1>
+                <p> Sign up now to access a world of opportunities in web development! Join our community, unlock exclusive internship resources, and connect with fellow developers.
+                    <br>
+                    <br>Don't miss out on your chance to grow and learn</p>
+
+                <i class="fa fa-facebook-f" ></i>   <i class="fa fa-twitter-square"></i>
+                <i class="fa fa-linkedin" ></i>
+                <i class="fa fa-instagram"></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="sign-in.js"></script>
+</body>
+</html>
